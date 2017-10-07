@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf-8" />
+      <title>HELLO Dojo</title>
+      <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/dojo/1.8.1/dojo/dojo.js" djConfig="parseOnLoad:true, isDebug:false"></script>
+      <script type="text/javascript">   
+	dojo.addOnLoad(function(){
+        var anim = dojo.animateProperty({
+             node:"cssxHeading",
+             duration:900,
+             properties: {
+                 fontSize: { start:22, end:55, unit:"px" },
+                 opacity: { start:1, end:0.45 },
+                 color: { start: "#00FF00", end:"#FF0000" }
+	      },
+	      delay:70
+	  });
+	  anim.play();
+      });
+      </script>
+  </head>
+  <body>
+    <h1 id="cssxHeading">Dojo rocks...</h1>
+    <p>
+      <hr/>
+      <a href="http://perlen-duomilia.rhcloud.com/test.pl">Return 2 my cloud ...Test</a>
+    </p>
+  </body>
+</html> 

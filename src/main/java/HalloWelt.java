@@ -44,7 +44,6 @@ public class HalloWelt extends HttpServlet {
 		writer.println("	<h2>Paris</h2>");
 		writer.println("	<h2>Brussels</h2>");
 		writer.println("	<h2>Berlin</h2>");
-		writer.println("	<h2>Next??</h2>");
 		writer.println("<body>");
 		writer.println("</html>");
 			
